@@ -1,0 +1,173 @@
+* {
+    width: auto;
+
+
+}
+
+.container {
+    width: 1300px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('depositphotos_19878025-stock-photo-white-dice-background.jpg');
+    background-size: cover;
+    flex: 1 0 auto;
+
+    text-align: center;
+}
+
+.list {
+    text-decoration: none;
+    display: flex;
+    gap: 36px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 514px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.list li:hover {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.logo {
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    animation: rotatecube 5s infinite linear;
+}
+
+@keyframes rotatecube {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 136px;
+    left: 435px;
+}
+
+
+#dice {
+    font-size: 100px;
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 221px;
+    left: 551px;
+}
+
+#roll-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 159px;
+    left: 556px;
+    cursor: pointer;
+}
+
+#roll-button:hover {
+    background-color: green;
+    color: white;
+    text-shadow: 1px 1px 1px red;
+}
+
+.footer {
+    width: 1300px;
+    height: 270px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    flex: 1 0 auto;
+
+
+}
+
+.a {
+
+    width: 300px;
+
+
+}
+
+.b li {
+    width: 300px;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.c {
+
+    width: 300px;
+
+}
+
+.bot {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: aquamarine;
+    width: 270px;
+    font-weight: bold;
+    height: 30px;
+
+
+}
+
+#inp {
+    margin: 5px;
+    width: 250px;
+    height: 20px;
+}
+
+h4 {
+    color: bisque;
+
+}
+
+.bot:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.imge ul {
+    width: 1300px;
+    height: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    position: absolute;
+    top: 750px;
+    color: white;
+    border-radius: 20px;
+
+}
+
+#nn {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30%;
+}
